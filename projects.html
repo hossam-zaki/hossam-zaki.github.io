@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Hossam Zaki</title>
+<meta name="description" content="Projects by Hossam Zaki: Dendro, guidewIRe, and AI research in interventional radiology and medical education.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:site_name" content="Hossam Zaki">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projects — Hossam Zaki">
+<meta property="og:description" content="Dendro, guidewIRe, and AI research in interventional radiology and medical education.">
+<meta property="og:url" content="https://hossamzaki.com/projects.html">
+<meta property="og:image" content="https://hossamzaki.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@hossamzki">
+<meta name="twitter:title" content="Projects — Hossam Zaki">
+<meta name="twitter:description" content="Dendro, guidewIRe, and AI research in interventional radiology and medical education.">
+<meta name="twitter:image" content="https://hossamzaki.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Hossam Zaki</a>
+    <nav class="site-nav">
+      <a href="index.html">About</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="writing.html">Writing</a>
+      <a href="now.html">Now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section>
+      <h1>Projects</h1>
+      <p class="subtle">Products and research I'm building, mostly around AI for medical
+      education and interventional radiology.</p>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="meta">Product · co-founder · active development</div>
+        <h3>Dendro</h3>
+        <p>AI-powered infrastructure that turns medical teaching — lectures, grand rounds,
+        bedside sessions — into structured learning. From a single recording it produces a
+        transcript and summary, Bloom's-aligned learning objectives, Anki flashcards, and
+        USMLE-style multiple-choice questions with explanations.</p>
+        <p class="subtle">300+ users · adopted across ~50% of Brown's medical school · an
+        official part of the Brown Neurology clerkship · partnerships in Neurology Grand
+        Rounds and Cardiology. Co-founded with Jay Khurana, MD.</p>
+        <div class="tags"><span class="tag">Med-ed AI</span><span class="tag">LLM pipeline</span><span class="tag">Anki / MCQs</span></div>
+        <p style="margin-top:14px"><a href="https://dendroeducation.com">dendroeducation.com →</a></p>
+      </div>
+
+      <div class="card">
+        <div class="meta">Product · active development</div>
+        <h3>guidewIRe</h3>
+        <p>A mobile-first reference platform for interventional radiology trainees. It pulls
+        procedure guides, device knowledge, calculators, and curated editorial content into
+        one place — built to modernize trainee resources and strengthen national IR trainee
+        connectivity.</p>
+        <div class="tags"><span class="tag">IR education</span><span class="tag">Mobile</span><span class="tag">Reference</span></div>
+      </div>
+
+      <div class="card">
+        <div class="meta">Research · published, CVIR 2026</div>
+        <h3>RAG for periprocedural anticoagulation</h3>
+        <p>A retrieval-augmented LLM system for periprocedural anticoagulation decisions in
+        interventional radiology — benchmarking five models against society guidelines.
+        Published in CardioVascular and Interventional Radiology with an SIR abstract.</p>
+        <div class="tags"><span class="tag">LLM + RAG</span><span class="tag">Decision support</span></div>
+        <p style="margin-top:14px"><a href="https://doi.org/10.1007/s00270-026-04428-0">Read the paper →</a></p>
+      </div>
+
+      <div class="card">
+        <div class="meta">Research · published, JVIR 2026</div>
+        <h3>CPT code prediction from IR notes</h3>
+        <p>An open-source LLM that predicts CPT billing codes directly from interventional
+        radiology operative notes. Published in the Journal of Vascular and Interventional
+        Radiology (with collaborators at UCSF).</p>
+        <div class="tags"><span class="tag">Open-source LLM</span><span class="tag">Clinical ops</span></div>
+        <p style="margin-top:14px"><a href="https://doi.org/10.1016/j.jvir.2026.108553">Read the paper →</a></p>
+      </div>
+
+      <div class="card">
+        <div class="meta">Writing · monthly</div>
+        <h3>The Interventionist</h3>
+        <p>A newsletter on AI, interventional radiology, and building in medicine — and a home
+        for clearer thinking about where the two fields meet.</p>
+        <div class="tags"><span class="tag">Newsletter</span><span class="tag">AI in medicine</span></div>
+        <p style="margin-top:14px"><a href="writing.html">Read writing →</a></p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="row">
+      <span>© <span id="year"></span> Hossam Zaki</span>
+      <span>
+        <a href="mailto:hzaki23@gmail.com">Email</a> ·
+        <a href="https://x.com/hossamzki">X</a> ·
+        <a href="https://github.com/hossam-zaki">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/hossamzaki23">LinkedIn</a> ·
+        <a href="https://scholar.google.com/citations?user=AaVVYHsAAAAJ&hl=en">Scholar</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

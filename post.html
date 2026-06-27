@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting…</title>
+<script>
+// Posts are now static pages at posts/<slug>.html.
+// Redirect any old ?slug= links to the new location.
+var slug = new URLSearchParams(location.search).get('slug');
+location.replace(slug ? 'posts/' + slug.replace(/[^a-z0-9\-_]/gi,'') + '.html' : 'writing.html');
+</script>
+</head>
+<body>
+<p>Redirecting… <a href="writing.html">Go to Writing</a>.</p>
+</body>
+</html>
