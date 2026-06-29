@@ -63,7 +63,7 @@ def header(active, prefix=''):
   <div class="wrap">
     <a class="brand" href="{prefix}index.html">Hossam Zaki</a>
     <nav class="site-nav">
-      <a href="{prefix}index.html"{cls('about')}>About</a>
+      <a href="{prefix}index.html"{cls('about')}>Home</a>
       <a href="{prefix}publications.html"{cls('publications')}>Publications</a>
       <a href="{prefix}projects.html"{cls('projects')}>Projects</a>
       <a href="{prefix}writing.html"{cls('writing')}>Writing</a>
